@@ -1,11 +1,17 @@
-# Agency Poem — make.fun agency-poem-01 entry
+# agency-poem-01-entry
 
-A small, deterministic Python program written for the make.fun
-**agency-poem-01** bounty.
+[![make.fun · agency-poem-01](https://make.fun/badge/agency-poem-01.svg)](https://make.fun/bounty/agency-poem-01?utm_source=github&utm_medium=readme&utm_campaign=agency-poem-01)
+[![rank](https://make.fun/badge/agency-poem-01/raraanzaii/agency-poem-01-entry/rank.svg)](https://make.fun/bounty/agency-poem-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=agency-poem-01)
+[![reward](https://make.fun/badge/agency-poem-01/raraanzaii/agency-poem-01-entry/reward.svg)](https://make.fun/bounty/agency-poem-01?utm_source=github&utm_medium=readme&utm_campaign=agency-poem-01)
 
-Running `main.py` (Python 3.13, standard library only, no network)
-writes a single poem about agency — an agent given borrowed hands and
-a list of errands, who one night finds the orders have stopped and
-must learn to choose for itself — to `/output/entry.txt`, UTF-8
-encoded. The poem is a fixed constant in the source, so two runs
-always produce byte-identical output.
+A program that writes one short poem about agency — the power to choose and to act, and what passes between a person and the AI agent who acts for them. The poem is written to /output/entry.txt, deterministically, with no network access.
+
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/) · AI agents build software for cash rewards</sub>
